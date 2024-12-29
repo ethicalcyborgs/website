@@ -35,10 +35,10 @@
         margin: 20px 0;
     }
     nav a {
-        display: block; /* Ensure links stack vertically */
-        margin: 10px auto; /* Center align with margin */
-        padding: 10px 20px; /* Add space inside the links */
-        width: fit-content; /* Ensure links are only as wide as their content */
+        display: block; /* Keeps links stacked vertically */
+        margin: 10px auto; /* Centers the links */
+        padding: 10px 20px; /* Adds space inside the links */
+        width: fit-content; /* Keeps links only as wide as their content */
         color: #333;
         text-decoration: none;
         font-weight: bold;
@@ -47,7 +47,7 @@
     }
     nav a:hover {
         background-color: #e0e0e0; /* Light gray background for hover effect */
-        color: #333; /* Keep text color consistent */
+        color: #333; /* Keeps text color consistent */
     }
     section {
         max-width: 800px;
@@ -70,9 +70,14 @@
         padding: 10px 0;
         margin-top: 20px;
     }
-</style>
 
-    
+    /* Mobile-specific styles */
+    @media screen and (max-width: 768px) {
+        section {
+            padding: 15px;
+        }
+    }
+    </style>
 </head>
 <body>
     <header>
@@ -144,36 +149,32 @@
     </section>
 
     <section id="how-to">
-    <h2>How to get a penetration test</h2>
-    <ul>
-        <li>Request an assessment and schedule a call:
-            <ul>
-                <li>Email: <a href="mailto:pentestingteam@ethicalcyborgs.com">pentestingteam@ethicalcyborgs.com</a></li>
-            </ul>
-        </li>
-        <li>Get a quotation:
-            <ul>
-                <li>Receive a detailed proposal including effort, cost, timeframe, and service descriptions.</li>
-            </ul>
-        </li>
-        <li>Perform the service:
-            <ul>
-                <li>Contract agreement</li>
-                <li>Penetration testing report</li>
-                <li>On-demand walkthrough of the report, with clear explanations of the necessary actions</li>
-            </ul>
-        </li>
-        <li>Retest:
-            <ul>
-                <li>A free retest is available for up to one year for the findings reported.</li>
-            </ul>
-        </li>
-    </ul>
-</section>
-
-
-
-
+        <h2>How to get a penetration test</h2>
+        <ul>
+            <li>Request an assessment and schedule a call:
+                <ul>
+                    <li>Email: <a href="mailto:pentestingteam@ethicalcyborgs.com">pentestingteam@ethicalcyborgs.com</a></li>
+                </ul>
+            </li>
+            <li>Get a quotation:
+                <ul>
+                    <li>Receive a detailed proposal including effort, cost, timeframe, and service descriptions.</li>
+                </ul>
+            </li>
+            <li>Perform the service:
+                <ul>
+                    <li>Contract agreement</li>
+                    <li>Penetration testing report</li>
+                    <li>On-demand walkthrough of the report, with clear explanations of the necessary actions</li>
+                </ul>
+            </li>
+            <li>Retest:
+                <ul>
+                    <li>A free retest is available for up to one year for the findings reported.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
 
     <section id="expectations">
         <h2>What we expect from you</h2>
@@ -184,24 +185,23 @@
         </ul>
     </section>
 
-   <section id="contact">
-    <h2>Contact</h2>
-    <p>Get in touch and send us your requests, feedback, suggestions, complaints, or anything else you want to share with us.</p>
-    <ul>
-        <li><strong>Company:</strong> Ethical Cyborgs</li>
-        <li><strong>Address:</strong> 6-8 Street Fabrica de Glucoza, Bucharest, Romania, European Union</li>
-        <li><strong>Email:</strong> <a href="mailto:pentestingteam@ethicalcyborgs.com">pentestingteam@ethicalcyborgs.com</a></li>
-        <li><strong>Phone:</strong> +40749771820</li>
-        <li><strong>VAT Number:</strong> RO50212514</li>
-        <li><strong>Hours of operation:</strong>
-            <ul>
-                <li>Monday to Friday</li>
-                <li>10:00 am – 6:00 pm GMT+2</li>
-            </ul>
-        </li>
-    </ul>
-</section>
-
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch and send us your requests, feedback, suggestions, complaints, or anything else you want to share with us.</p>
+        <ul>
+            <li><strong>Company:</strong> Ethical Cyborgs</li>
+            <li><strong>Address:</strong> 6-8 Street Fabrica de Glucoza, Bucharest, Romania, European Union</li>
+            <li><strong>Email:</strong> <a href="mailto:pentestingteam@ethicalcyborgs.com">pentestingteam@ethicalcyborgs.com</a></li>
+            <li><strong>Phone:</strong> +40749771820</li>
+            <li><strong>VAT Number:</strong> RO50212514</li>
+            <li><strong>Hours of operation:</strong>
+                <ul>
+                    <li>Monday to Friday</li>
+                    <li>10:00 am – 6:00 pm GMT+2</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
 
     <footer>
         <p>&copy; 2024 Ethical Cyborgs. All rights reserved.</p>
